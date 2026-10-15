@@ -1,0 +1,51 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#E60012"><link rel="manifest" href="../../../manifest.json"><link rel="icon" href="../../../icon-192.png"><link rel="apple-touch-icon" href="../../../icon-192.png"><meta name="apple-mobile-web-app-title" content="創心館 単語"><title>中2 英単語 第29回｜創心館</title><style>
+:root { --red: #E60012; --ink: #1a1a1a; --sub: #666; --line: #e5e5e5; --bg: #fafafa; --card: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; color: var(--ink); background: var(--bg); -webkit-text-size-adjust: 100%; }
+header { background: var(--red); color: #fff; padding: 14px 16px 12px; }
+header .brand { font-size: 13px; opacity: .9; letter-spacing: .1em; }
+header h1 { margin: 2px 0 0; font-size: 24px; }
+header .sub { font-size: 13px; opacity: .95; margin-top: 2px; }
+main { max-width: 640px; margin: 0 auto; padding: 12px 16px 40px; }
+.player { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+audio { width: 100%; }
+.row2 { display: flex; gap: 8px; margin-top: 8px; }
+.btn { flex: 1; min-height: 46px; border: 2px solid var(--red); background: #fff; color: var(--red); border-radius: 10px; font-size: 16px; font-weight: 700; }
+.btn.on { background: var(--red); color: #fff; }
+.hint { font-size: 13px; color: var(--sub); margin: 8px 0 0; }
+ol.words { list-style: none; margin: 8px 0 0; padding: 0; }
+.w { display: block; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 8px 0; font: inherit; color: inherit; }
+.w.now { border-color: var(--red); box-shadow: 0 0 0 2px var(--red) inset; }
+.top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.no { font-size: 13px; color: var(--sub); min-width: 2.2em; }
+.en { font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-weight: 700; }
+.ps { font-size: 12px; border: 1px solid #999; border-radius: 4px; padding: 0 4px; color: #444; }
+.star { color: var(--red); font-size: 14px; }
+.ja { font-size: 16px; font-weight: 700; margin-top: 4px; }
+.ex { font-family: Georgia, serif; font-size: 15px; margin-top: 6px; color: #333; }
+.ex b { text-decoration: underline; }
+.xj { font-size: 13px; color: var(--sub); margin-top: 2px; }
+body.hide .ja, body.hide .xj { visibility: hidden; }
+nav.pn { display: flex; gap: 8px; margin-top: 18px; }
+nav.pn a { flex: 1; text-align: center; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); text-decoration: none; font-weight: 700; }
+ul.list { list-style: none; padding: 0; margin: 8px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+ul.list a { display: block; padding: 14px 12px; background: #fff; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); }
+ul.list b { display: block; font-size: 18px; } ul.list span { font-size: 12px; color: var(--sub); }
+footer { text-align: center; font-size: 12px; color: var(--sub); padding: 24px 16px 32px; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #eee; --sub: #aaa; --line: #333; --bg: #121212; --card: #1d1d1d; }
+  .btn, nav.pn a, ul.list a { background: #1d1d1d; } .ex { color: #ddd; } .ps { color: #ccc; }
+}
+</style></head><body><header><div class="brand">創心館　英単語の音声</div><h1>中2　第29回</h1><div class="sub">教科書 SUNSHINE（開隆堂） p.132〜132　No.841〜848</div></header><main><div class="player"><audio id="a" controls preload="metadata" src="../29.mp3"></audio><div class="row2"><button class="btn sp" data-r="0.8">ゆっくり</button><button class="btn sp on" data-r="1">ふつう</button><button class="btn sp" data-r="1.2">はやい</button></div><div class="row2"><button class="btn" id="hide">意味をかくす</button></div></div><p class="hint">単語をタップすると、その単語から音声が流れます。英語 → 意味 → 英語 → 例文 の順に読みます。</p><ol class="words"><li><button class="w" data-no="841"><div class="top"><span class="no">841</span><span class="en">grocery store</span><span class="ps">熟</span></div><div class="ja">食料品店</div><div class="ex">The <b>grocery store</b> is open until ten.</div><div class="xj">その食料品店は10時まで開いています。</div></button></li><li><button class="w" data-no="842"><div class="top"><span class="no">842</span><span class="en">helpful</span><span class="ps">形</span></div><div class="ja">役に立つ；助けになる</div><div class="ex">Your advice was very <b>helpful</b>.</div><div class="xj">あなたのアドバイスはとても役に立ちました。</div></button></li><li><button class="w" data-no="843"><div class="top"><span class="no">843</span><span class="en">hotel</span><span class="ps">名</span></div><div class="ja">ホテル</div><div class="ex">We stayed at a <b>hotel</b> in Kyoto.</div><div class="xj">私たちは京都のホテルに泊まりました。</div></button></li><li><button class="w" data-no="844"><div class="top"><span class="no">844</span><span class="en">laundry</span><span class="ps">名</span></div><div class="ja">洗濯；洗濯物</div><div class="ex">I help my mother with the <b>laundry</b> on Sundays.</div><div class="xj">私は日曜日に母の洗濯を手伝います。</div></button></li><li><button class="w" data-no="845"><div class="top"><span class="no">845</span><span class="en">post office</span><span class="ps">熟</span></div><div class="ja">郵便局</div><div class="ex">Is the <b>post office</b> near your house?</div><div class="xj">郵便局はあなたの家の近くにありますか。</div></button></li><li><button class="w" data-no="846"><div class="top"><span class="no">846</span><span class="en">stationery store</span><span class="ps">熟</span></div><div class="ja">文房具店</div><div class="ex">I bought a notebook at the <b>stationery store</b>.</div><div class="xj">私は文房具店でノートを買いました。</div></button></li><li><button class="w" data-no="847"><div class="top"><span class="no">847</span><span class="en">toy store</span><span class="ps">熟</span></div><div class="ja">おもちゃ屋</div><div class="ex">My little brother wants to go to the <b>toy store</b>.</div><div class="xj">弟はおもちゃ屋に行きたがっています。</div></button></li><li><button class="w" data-no="848"><div class="top"><span class="no">848</span><span class="en">vegetable shop</span><span class="ps">熟</span></div><div class="ja">八百屋</div><div class="ex">We buy carrots at the <b>vegetable shop</b>.</div><div class="xj">私たちは八百屋でにんじんを買います。</div></button></li></ol><nav class="pn"><a href="../28/">← 第28回</a><a href="../">回の一覧</a></nav></main><footer>創心館オリジナル 中学英単語帳</footer><script>
+const a = document.getElementById('a'), T = {"841": 4.57, "842": 18.44, "843": 32.24, "844": 45.07, "845": 59.42, "846": 72.93, "847": 87.37, "848": 100.98};
+document.querySelectorAll('.sp').forEach(b => b.onclick = () => {
+  a.playbackRate = +b.dataset.r; document.querySelectorAll('.sp').forEach(x => x.classList.toggle('on', x === b));
+  try { localStorage.setItem('rate', b.dataset.r); } catch (e) {} });
+try { const r = localStorage.getItem('rate'); if (r) document.querySelector('.sp[data-r="' + r + '"]').click(); } catch (e) {}
+a.addEventListener('play', () => { const on = document.querySelector('.sp.on'); if (on) a.playbackRate = +on.dataset.r; });
+document.getElementById('hide').onclick = e => { document.body.classList.toggle('hide'); e.target.classList.toggle('on'); e.target.textContent = document.body.classList.contains('hide') ? '意味を見せる' : '意味をかくす'; };
+const btns = [...document.querySelectorAll('.w')];
+btns.forEach(b => b.onclick = () => { const t = T[b.dataset.no]; if (t !== undefined) { a.currentTime = t; a.play(); } });
+a.addEventListener('timeupdate', () => { let cur = null; for (const b of btns) { const t = T[b.dataset.no]; if (t !== undefined && a.currentTime >= t - 0.05) cur = b; }
+  btns.forEach(b => b.classList.toggle('now', b === cur)); });
+</script></body></html>
