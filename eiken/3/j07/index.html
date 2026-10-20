@@ -1,0 +1,53 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#E60012"><link rel="manifest" href="../../../manifest.json"><link rel="icon" href="../../../icon-192.png"><link rel="apple-touch-icon" href="../../../icon-192.png"><meta name="apple-mobile-web-app-title" content="創心館 単語"><title>英検3級 熟語 Set 7｜創心館</title><style>
+:root { --red: #E60012; --ink: #1a1a1a; --sub: #666; --line: #e5e5e5; --bg: #fafafa; --card: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; color: var(--ink); background: var(--bg); -webkit-text-size-adjust: 100%; }
+header { background: var(--red); color: #fff; padding: 14px 16px 12px; }
+header .brand { font-size: 13px; opacity: .9; letter-spacing: .1em; }
+header h1 { margin: 2px 0 0; font-size: 24px; }
+header .sub { font-size: 13px; opacity: .95; margin-top: 2px; }
+main { max-width: 640px; margin: 0 auto; padding: 12px 16px 40px; }
+.player { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+audio { width: 100%; }
+.row2 { display: flex; gap: 8px; margin-top: 8px; }
+.btn { flex: 1; min-height: 46px; border: 2px solid var(--red); background: #fff; color: var(--red); border-radius: 10px; font-size: 16px; font-weight: 700; }
+.btn.on { background: var(--red); color: #fff; }
+.hint { font-size: 13px; color: var(--sub); margin: 8px 0 0; }
+ol.words { list-style: none; margin: 8px 0 0; padding: 0; }
+.w { display: block; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 8px 0; font: inherit; color: inherit; }
+.w.now { border-color: var(--red); box-shadow: 0 0 0 2px var(--red) inset; }
+.top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.no { font-size: 13px; color: var(--sub); min-width: 2.2em; }
+.en { font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-weight: 700; }
+.ps { font-size: 12px; border: 1px solid #999; border-radius: 4px; padding: 0 4px; color: #444; }
+.star { color: var(--red); font-size: 14px; }
+.ja { font-size: 16px; font-weight: 700; margin-top: 4px; }
+.ex { font-family: Georgia, serif; font-size: 15px; margin-top: 6px; color: #333; }
+.ex b { text-decoration: underline; }
+.xj { font-size: 13px; color: var(--sub); margin-top: 2px; }
+body.hide .ja, body.hide .xj { visibility: hidden; }
+nav.pn { display: flex; gap: 8px; margin-top: 18px; }
+nav.pn a { flex: 1; text-align: center; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); text-decoration: none; font-weight: 700; }
+ul.list { list-style: none; padding: 0; margin: 8px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+ul.list a { display: block; padding: 14px 12px; background: #fff; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); }
+ul.list b { display: block; font-size: 18px; } ul.list span { font-size: 12px; color: var(--sub); }
+.ek { font-size: 11px; border: 1px solid var(--sub); border-radius: 6px; padding: 0 5px; color: var(--sub); }
+.tabs { display: flex; gap: 8px; margin: 12px 0 0; }
+.tabs .btn { min-height: 50px; font-size: 17px; }
+#quiz { display: none; } body.quiz #quiz { display: block; } body.quiz #learn, body.quiz .player { display: none; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 16px; margin-top: 12px; text-align: center; }
+.card .prog { font-size: 13px; color: var(--sub); }
+.card .qja { font-size: 24px; font-weight: 700; margin: 18px 0 8px; line-height: 1.4; }
+.card .qen { font-family: Georgia, serif; font-size: 30px; font-weight: 700; color: var(--red); min-height: 44px; margin: 10px 0; visibility: hidden; }
+.card.open .qen { visibility: visible; }
+.card .btns { display: flex; gap: 8px; margin-top: 12px; } .card .btns[hidden] { display: none; }
+.card .ok { border-color: #1a7f37; color: #1a7f37; } .card .ng { border-color: var(--red); color: var(--red); }
+.res h2 { font-size: 28px; margin: 6px 0; } .res ul { text-align: left; padding-left: 18px; } .res li { margin: 6px 0; }
+.res .en2 { font-family: Georgia, serif; font-weight: 700; }
+.last { font-size: 13px; color: var(--sub); text-align: center; margin: 8px 0 0; min-height: 1em; }
+footer { text-align: center; font-size: 12px; color: var(--sub); padding: 24px 16px 32px; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #eee; --sub: #aaa; --line: #333; --bg: #121212; --card: #1d1d1d; }
+  .btn, nav.pn a, ul.list a { background: #1d1d1d; } .ex { color: #ddd; } .ps { color: #ccc; }
+}
+</style></head><body><header><div class="brand">創心館　英検単語帳の音声</div><h1>英検3級　熟語 Set 7</h1><div class="sub">熟語・会話表現</div></header><main><div class="tabs"><button class="btn on" id="tabL">音声で覚える</button><button class="btn" id="tabQ">ひとりテスト</button></div><p class="last" id="lastq"></p><div class="player"><audio id="a" controls preload="metadata" src="../j07.mp3"></audio><div class="row2"><button class="btn sp" data-r="0.8">ゆっくり</button><button class="btn sp on" data-r="1">ふつう</button><button class="btn sp" data-r="1.2">はやい</button></div></div><div id="learn"><div class="row2"><button class="btn" id="hide">意味をかくす</button></div><p class="hint">単語をタップすると、その単語から音声が流れます。英語 → 意味 → 英語 → 例文 の順に読みます。</p><ol class="words"><li><button class="w" data-no="熟61"><div class="top"><span class="no">熟61</span><span class="en">wait for ～</span></div><div class="ja">～を待つ</div><div class="ex">I&#x27;m waiting for the bus.</div><div class="xj">私はバスを待っている。</div></button></li><li><button class="w" data-no="熟62"><div class="top"><span class="no">熟62</span><span class="en">look for ～</span></div><div class="ja">～を探す</div><div class="ex">What are you looking for?</div><div class="xj">何を探しているの？</div></button></li><li><button class="w" data-no="熟63"><div class="top"><span class="no">熟63</span><span class="en">look like ～</span></div><div class="ja">～のように見える</div><div class="ex">That cloud looks like a fish.</div><div class="xj">あの雲は魚のように見える。</div></button></li><li><button class="w" data-no="熟64"><div class="top"><span class="no">熟64</span><span class="en">hear from ～</span></div><div class="ja">～から便りがある</div><div class="ex">I often hear from my aunt in Canada.</div><div class="xj">カナダのおばからよく便りがある。</div></button></li><li><button class="w" data-no="熟65"><div class="top"><span class="no">熟65</span><span class="en">throw away ～</span></div><div class="ja">～を捨てる</div><div class="ex">Don&#x27;t throw away these bottles.</div><div class="xj">これらのびんを捨てないで。</div></button></li><li><button class="w" data-no="熟66"><div class="top"><span class="no">熟66</span><span class="en">put on ～</span></div><div class="ja">～を着る、身につける</div><div class="ex">Put on your coat. It&#x27;s cold outside.</div><div class="xj">コートを着なさい。外は寒いよ。</div></button></li><li><button class="w" data-no="熟67"><div class="top"><span class="no">熟67</span><span class="en">take off ～</span></div><div class="ja">～を脱ぐ</div><div class="ex">Please take off your shoes here.</div><div class="xj">ここでくつを脱いでください。</div></button></li><li><button class="w" data-no="熟68"><div class="top"><span class="no">熟68</span><span class="en">try on ～</span></div><div class="ja">～を試着する</div><div class="ex">Can I try on this shirt?</div><div class="xj">このシャツを試着してもいいですか。</div></button></li><li><button class="w" data-no="熟69"><div class="top"><span class="no">熟69</span><span class="en">turn off ～</span></div><div class="ja">～（電気など）を消す</div><div class="ex">Turn off the TV and go to bed.</div><div class="xj">テレビを消して寝なさい。</div></button></li><li><button class="w" data-no="熟70"><div class="top"><span class="no">熟70</span><span class="en">turn down ～</span></div><div class="ja">～（音量など）を下げる</div><div class="ex">Could you turn down the music?</div><div class="xj">音楽の音量を下げてくれますか。</div></button></li><li><button class="w" data-no="会31"><div class="top"><span class="no">会31</span><span class="en">I hope so.</span></div><div class="ja">そうだといいね。</div><div class="ex">A: Will it be sunny tomorrow?<br>B: I hope so.</div></button></li><li><button class="w" data-no="会32"><div class="top"><span class="no">会32</span><span class="en">I&#x27;m afraid not.</span></div><div class="ja">残念ながらそうではないと思う。</div><div class="ex">A: Do you have this shirt in blue?<br>B: I&#x27;m afraid not.</div></button></li><li><button class="w" data-no="会33"><div class="top"><span class="no">会33</span><span class="en">Of course.</span></div><div class="ja">もちろん。</div><div class="ex">A: Can I use your pen?<br>B: Of course.</div></button></li><li><button class="w" data-no="会34"><div class="top"><span class="no">会34</span><span class="en">Me, too.</span></div><div class="ja">私も。</div><div class="ex">A: I&#x27;m hungry.<br>B: Me, too.</div></button></li><li><button class="w" data-no="会35"><div class="top"><span class="no">会35</span><span class="en">Me, neither.</span></div><div class="ja">私も～ない。</div><div class="ex">A: I don&#x27;t like snakes.<br>B: Me, neither.</div></button></li></ol></div><div id="quiz"><p class="hint">英語を見て、意味を言おう。「答えを見る」で意味と発音が出ます。自分で○か×をつけよう。</p><div id="qbox"></div></div><nav class="pn"><a href="../j06/">← 熟語 Set 6</a><a href="../j08/">熟語 Set 8 →</a></nav></main><footer>創心館オリジナル 英検単語帳</footer><script>window.DATA = {"T": {"熟61": 5.1, "熟62": 17.84, "熟63": 30.22, "熟64": 43.54, "熟65": 57.33, "熟66": 70.46, "熟67": 85.69, "熟68": 98.48, "熟69": 111.22, "熟70": 125.06, "会31": 138.43, "会32": 153.68, "会33": 170.86, "会34": 185.18, "会35": 200.2}, "TE": {"熟61": 7.07, "熟62": 19.71, "熟63": 32.12, "熟64": 45.41, "熟65": 59.35, "熟66": 72.33, "熟67": 87.61, "熟68": 100.35, "熟69": 113.12, "熟70": 126.96, "会31": 140.44, "会32": 155.92, "会33": 172.76, "会34": 187.34, "会35": 202.31}, "Q": [["熟61", "wait for ～", "～を待つ"], ["熟62", "look for ～", "～を探す"], ["熟63", "look like ～", "～のように見える"], ["熟64", "hear from ～", "～から便りがある"], ["熟65", "throw away ～", "～を捨てる"], ["熟66", "put on ～", "～を着る、身につける"], ["熟67", "take off ～", "～を脱ぐ"], ["熟68", "try on ～", "～を試着する"], ["熟69", "turn off ～", "～を消す"], ["熟70", "turn down ～", "～を下げる"], ["会31", "I hope so.", "そうだといいね。"], ["会32", "I'm afraid not.", "残念ながらそうではないと思う。"], ["会33", "Of course.", "もちろん。"], ["会34", "Me, too.", "私も。"], ["会35", "Me, neither.", "私も～ない。"]], "KEY": "e3-j07"};</script><script src="../../../app.js?v=2"></script></body></html>

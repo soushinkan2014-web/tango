@@ -1,0 +1,53 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#E60012"><link rel="manifest" href="../../../manifest.json"><link rel="icon" href="../../../icon-192.png"><link rel="apple-touch-icon" href="../../../icon-192.png"><meta name="apple-mobile-web-app-title" content="創心館 単語"><title>英検4級 新しい意味｜創心館</title><style>
+:root { --red: #E60012; --ink: #1a1a1a; --sub: #666; --line: #e5e5e5; --bg: #fafafa; --card: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; color: var(--ink); background: var(--bg); -webkit-text-size-adjust: 100%; }
+header { background: var(--red); color: #fff; padding: 14px 16px 12px; }
+header .brand { font-size: 13px; opacity: .9; letter-spacing: .1em; }
+header h1 { margin: 2px 0 0; font-size: 24px; }
+header .sub { font-size: 13px; opacity: .95; margin-top: 2px; }
+main { max-width: 640px; margin: 0 auto; padding: 12px 16px 40px; }
+.player { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+audio { width: 100%; }
+.row2 { display: flex; gap: 8px; margin-top: 8px; }
+.btn { flex: 1; min-height: 46px; border: 2px solid var(--red); background: #fff; color: var(--red); border-radius: 10px; font-size: 16px; font-weight: 700; }
+.btn.on { background: var(--red); color: #fff; }
+.hint { font-size: 13px; color: var(--sub); margin: 8px 0 0; }
+ol.words { list-style: none; margin: 8px 0 0; padding: 0; }
+.w { display: block; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 8px 0; font: inherit; color: inherit; }
+.w.now { border-color: var(--red); box-shadow: 0 0 0 2px var(--red) inset; }
+.top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.no { font-size: 13px; color: var(--sub); min-width: 2.2em; }
+.en { font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-weight: 700; }
+.ps { font-size: 12px; border: 1px solid #999; border-radius: 4px; padding: 0 4px; color: #444; }
+.star { color: var(--red); font-size: 14px; }
+.ja { font-size: 16px; font-weight: 700; margin-top: 4px; }
+.ex { font-family: Georgia, serif; font-size: 15px; margin-top: 6px; color: #333; }
+.ex b { text-decoration: underline; }
+.xj { font-size: 13px; color: var(--sub); margin-top: 2px; }
+body.hide .ja, body.hide .xj { visibility: hidden; }
+nav.pn { display: flex; gap: 8px; margin-top: 18px; }
+nav.pn a { flex: 1; text-align: center; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); text-decoration: none; font-weight: 700; }
+ul.list { list-style: none; padding: 0; margin: 8px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+ul.list a { display: block; padding: 14px 12px; background: #fff; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); }
+ul.list b { display: block; font-size: 18px; } ul.list span { font-size: 12px; color: var(--sub); }
+.ek { font-size: 11px; border: 1px solid var(--sub); border-radius: 6px; padding: 0 5px; color: var(--sub); }
+.tabs { display: flex; gap: 8px; margin: 12px 0 0; }
+.tabs .btn { min-height: 50px; font-size: 17px; }
+#quiz { display: none; } body.quiz #quiz { display: block; } body.quiz #learn, body.quiz .player { display: none; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 16px; margin-top: 12px; text-align: center; }
+.card .prog { font-size: 13px; color: var(--sub); }
+.card .qja { font-size: 24px; font-weight: 700; margin: 18px 0 8px; line-height: 1.4; }
+.card .qen { font-family: Georgia, serif; font-size: 30px; font-weight: 700; color: var(--red); min-height: 44px; margin: 10px 0; visibility: hidden; }
+.card.open .qen { visibility: visible; }
+.card .btns { display: flex; gap: 8px; margin-top: 12px; } .card .btns[hidden] { display: none; }
+.card .ok { border-color: #1a7f37; color: #1a7f37; } .card .ng { border-color: var(--red); color: var(--red); }
+.res h2 { font-size: 28px; margin: 6px 0; } .res ul { text-align: left; padding-left: 18px; } .res li { margin: 6px 0; }
+.res .en2 { font-family: Georgia, serif; font-weight: 700; }
+.last { font-size: 13px; color: var(--sub); text-align: center; margin: 8px 0 0; min-height: 1em; }
+footer { text-align: center; font-size: 12px; color: var(--sub); padding: 24px 16px 32px; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #eee; --sub: #aaa; --line: #333; --bg: #121212; --card: #1d1d1d; }
+  .btn, nav.pn a, ul.list a { background: #1d1d1d; } .ex { color: #ddd; } .ps { color: #ccc; }
+}
+</style></head><body><header><div class="brand">創心館　英検単語帳の音声</div><h1>英検4級　新しい意味</h1><div class="sub">新1〜新9</div></header><main><div class="tabs"><button class="btn on" id="tabL">音声で覚える</button><button class="btn" id="tabQ">ひとりテスト</button></div><p class="last" id="lastq"></p><div class="player"><audio id="a" controls preload="metadata" src="../n.mp3"></audio><div class="row2"><button class="btn sp" data-r="0.8">ゆっくり</button><button class="btn sp on" data-r="1">ふつう</button><button class="btn sp" data-r="1.2">はやい</button></div></div><div id="learn"><div class="row2"><button class="btn" id="hide">意味をかくす</button></div><p class="hint">単語をタップすると、その単語から音声が流れます。英語 → 意味 → 英語 → 例文 の順に読みます。</p><ol class="words"><li><button class="w" data-no="新1"><div class="top"><span class="no">新1</span><span class="en">back</span><span class="ps">副</span></div><div class="xj">知っている意味：後ろ；背中</div><div class="ja">もどって；返して</div><div class="ex">My mother will be <b>back</b> at six.</div><div class="xj">母は6時にもどってきます。</div></button></li><li><button class="w" data-no="新2"><div class="top"><span class="no">新2</span><span class="en">free</span><span class="ps">形</span></div><div class="xj">知っている意味：ひまな</div><div class="ja">無料の</div><div class="ex">This museum is <b>free</b> for children.</div><div class="xj">この博物館は、子どもは無料です。</div></button></li><li><button class="w" data-no="新3"><div class="top"><span class="no">新3</span><span class="en">well</span><span class="ps">間</span></div><div class="xj">知っている意味：上手に</div><div class="ja">ええと；さて</div><div class="ex"><b>Well</b>, I think the blue one is better.</div><div class="xj">ええと、青いほうがいいと思います。</div></button></li><li><button class="w" data-no="新4"><div class="top"><span class="no">新4</span><span class="en">well</span><span class="ps">形</span></div><div class="xj">知っている意味：上手に</div><div class="ja">元気な；具合がよい</div><div class="ex">My sister was not <b>well</b> yesterday.</div><div class="xj">妹はきのう、体の具合がよくありませんでした。</div></button></li><li><button class="w" data-no="新5"><div class="top"><span class="no">新5</span><span class="en">fine</span><span class="ps">形</span></div><div class="xj">知っている意味：元気な</div><div class="ja">よい；だいじょうぶな</div><div class="ex">Sunday is <b>fine</b> with me.</div><div class="xj">私は日曜日でだいじょうぶです。</div></button></li><li><button class="w" data-no="新6"><div class="top"><span class="no">新6</span><span class="en">fall</span><span class="ps">動</span></div><div class="xj">知っている意味：秋</div><div class="ja">落ちる；転ぶ</div><div class="ex">An apple <b>fell</b> from the tree.</div><div class="xj">リンゴが木から落ちました。</div></button></li><li><button class="w" data-no="新7"><div class="top"><span class="no">新7</span><span class="en">station</span><span class="ps">名</span></div><div class="xj">知っている意味：駅</div><div class="ja">（警察などの）署</div><div class="ex">The police <b>station</b> is near my house.</div><div class="xj">警察署は私の家の近くにあります。</div></button></li><li><button class="w" data-no="新8"><div class="top"><span class="no">新8</span><span class="en">watch</span><span class="ps">名</span></div><div class="xj">知っている意味：（テレビなどを）見る</div><div class="ja">うで時計</div><div class="ex">I got a new <b>watch</b> for my birthday.</div><div class="xj">私は誕生日に新しいうで時計をもらいました。</div></button></li><li><button class="w" data-no="新9"><div class="top"><span class="no">新9</span><span class="en">play</span><span class="ps">名</span></div><div class="xj">知っている意味：（スポーツを）する；ひく</div><div class="ja">劇</div><div class="ex">Our class did a <b>play</b> at the school festival.</div><div class="xj">私たちのクラスは文化祭で劇をしました。</div></button></li></ol></div><div id="quiz"><p class="hint">英語を見て、意味を言おう。「答えを見る」で意味と発音が出ます。自分で○か×をつけよう。</p><div id="qbox"></div></div><nav class="pn"><a href="../r4/">← 復習 第4回</a><a href="../01/">第1回 →</a></nav></main><footer>創心館オリジナル 英検単語帳</footer><script>window.DATA = {"T": {"新1": 4.76, "新2": 18.2, "新3": 31.04, "新4": 44.21, "新5": 57.84, "新6": 70.89, "新7": 83.75, "新8": 97.06, "新9": 109.83}, "TE": {"新1": 6.64, "新2": 20.07, "新3": 32.91, "新4": 46.08, "新5": 59.71, "新6": 72.76, "新7": 85.62, "新8": 98.94, "新9": 111.7}, "Q": [["新1", "back", "もどって"], ["新2", "free", "無料の"], ["新3", "well", "ええと"], ["新4", "well", "元気な"], ["新5", "fine", "よい"], ["新6", "fall", "落ちる"], ["新7", "station", "署"], ["新8", "watch", "うで時計"], ["新9", "play", "劇"]], "KEY": "e4-n"};</script><script src="../../../app.js?v=2"></script></body></html>
